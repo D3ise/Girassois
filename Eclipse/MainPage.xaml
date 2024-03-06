@@ -14,14 +14,29 @@
         Margin="15,0,15,40"/>
 
         <Button Text="INICIAR"
-        Margin="10"
-        HeightRequest="60"
+        Clicked="Start"
+        HorizontalOptions="FillAndExpand"
+        VerticalOptions="Center"
+        Margin="0,400,0,0"
+        HeightRequest="50"
         CornerRadius="30"
         TextColor="Black"
-        BackgroundColor="Green"
+        BackgroundColor="#85a340"
         FontAttributes="Bold"
-        FontSize="20"
-        HorizontalOptions="FillAndExpand"/>
+        FontSize="20"/> 
+
+         <Button Text="SOBRE"
+        HorizontalOptions="FillAndExpand"
+        VerticalOptions="End"
+         Margin="0,0,0,60"
+        HeightRequest="50"
+        CornerRadius="30"
+        TextColor="Black"
+        BackgroundColor="#85a340"
+        FontAttributes="Bold"
+        FontSize="20"/> 
+
+         
 
 </Grid>
 </ContentPage>

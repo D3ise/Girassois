@@ -9,6 +9,9 @@ public partial class MainPage : ContentPage
 		InitializeComponent();
 	}
 
-	
+	 void Start(object sender, EventArgs args)
+	{
+		Application.Current.MainPage = new GamePage();
+	}
 }
 
