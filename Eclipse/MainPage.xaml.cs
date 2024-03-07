@@ -13,5 +13,13 @@ public partial class MainPage : ContentPage
 	{
 		Application.Current.MainPage = new GamePage();
 	}
+	 void About(object sender, EventArgs args)
+	{
+		frameAbout.IsVisible = true;
+	}
+	void Back(object sender, EventArgs args)
+	{
+		frameAbout.IsVisible =  false;
+	}
 }
 
