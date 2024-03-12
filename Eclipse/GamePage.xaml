@@ -35,7 +35,8 @@
               Grid.Row= "0"
               Grid.Column= "1"
               Clicked= "Voltar"
-              TextColor="Black"/>
+              TextColor="Black"
+              BackgroundColor="#85553d"/>
 
               <Label Text= "Você está a caminho da nova casa de sua avó, e para chegar até lá terá que atravessar um labirinto onde encontrará muitos desafios. Tem certeza que está preparado(a)?"
               Grid.Row= "2"
@@ -50,6 +51,7 @@
               Grid.Column= "0"
               Grid.ColumnSpan="2"
               HeightRequest="40"
+              BackgroundColor="#85553d"
               CornerRadius="30"
               TextColor="Black"/>
 
@@ -57,6 +59,7 @@
               Grid.Row= "4"
               Grid.Column= "0"
               Grid.ColumnSpan="2"
+               BackgroundColor="#85553d"
               HeightRequest="40"
               CornerRadius="30"
               TextColor="Black"/>
