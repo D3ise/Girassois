@@ -1,3 +1,6 @@
+namespace Eclipse;
+
+
 public class ConfigGamePage
 {
 public int Id;
