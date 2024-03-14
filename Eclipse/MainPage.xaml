@@ -6,13 +6,8 @@
 
 <Grid>
     <Image Source ="selvagem.jpg"
-    Aspect="AspectFill"/>
+            Aspect="AspectFill"/>
     
-      <VerticalStackLayout
-        VerticalOptions="End"
-        Spacing="10"
-        Margin="15,0,15,40"/>
-
       <Button Text="INICIAR"
          Clicked="Start"
          HorizontalOptions="FillAndExpand"
@@ -62,6 +57,16 @@
          Grid.ColumnSpan="2"
          HorizontalOptions="Center"/>
 
+         <Button Text=""
+         Padding="0"
+        Grid.Row="0"
+        Grid.Column="1"
+        HeightRequest="20"
+        WidthRequest="20"
+         Clicked="Back" 
+         TextColor="White"
+         BackgroundColor="Purple"/>
+
         <Label Text= "Olá!! Este aplicativo foi feito por Deise Elen, consiste em um jogo no qual o objetivo do jogador é sair do Labirinto Selvagem, mas no caminho enfrentará muitos desafios"
          Grid.Row="1"
          Grid.ColumnSpan="2"
@@ -69,14 +74,7 @@
          HorizontalTextAlignment="Center"
          VerticalOptions="Center"/>
 
-         <Button Text="X"
-        Grid.Row="0"
-        Grid.Column="1"
-         HeightRequest="1"
-         WidthRequest="1" 
-         Clicked="Back" 
-         TextColor="White"
-         BackgroundColor="Black"/>
+         
 
         </Grid>
         </Frame>

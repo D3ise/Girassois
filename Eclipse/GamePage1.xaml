@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Eclipse.GamePage1"
+             Shell.NavBarIsVisible="False">
+
+ <Frame x:Name= "Sobre"
+             IsVisible= "true"
+             Margin="10,20"
+             CornerRadius="20"
+             BackgroundColor="#85a340"
+             HorizontalOptions="Fill"
+             VerticalOptions="Fill">
+
+      <Grid>
+         <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+         </Grid.RowDefinitions>
+         <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="50"/>
+         </Grid.ColumnDefinitions>
+
+         <Image Source="imginicio.jpg"
+               Aspect="AspectFill"
+               Grid.Row= "1"
+               Grid.Column="0"
+               Grid.ColumnSpan="2"/>
+
+         <Button Text= "X"
+              Grid.Row= "0"
+              Grid.Column= "1"
+              Clicked= "Volta"
+              TextColor="Black"
+              BackgroundColor="#85553d"/>
+
+         <Label Text= "Na sua frente há dois caminhos. Qual você escolherá?"
+              Grid.Row= "2"
+              Grid.Column= "0"
+              Grid.ColumnSpan="2"
+              VerticalOptions= "Center"
+              FontSize="14"
+              TextColor= "Black"/>
+
+         <Button Text= "ESQUERDA"
+              Grid.Row= "3"
+              Grid.Column= "0"
+              Grid.ColumnSpan="2"
+              Clicked="Próximo"
+              HeightRequest="40"
+              BackgroundColor="#85553d"
+              CornerRadius="30"
+              TextColor="Black"/>
+
+         <Button Text= "DIREITA"
+              Grid.Row= "4"
+              Grid.Column= "0"
+              Grid.ColumnSpan="2"
+               BackgroundColor="#85553d"
+              HeightRequest="40"
+              CornerRadius="30"
+              TextColor="Black"/>
+      </Grid>
+   </Frame>
+
+</ContentPage>
