@@ -34,9 +34,14 @@
          <Button Text= "X"
               Grid.Row= "0"
               Grid.Column= "1"
+              Padding="0"
+              HeightRequest="20"
+              WidthRequest="20"
               Clicked= "Volta"
               TextColor="Black"
-              BackgroundColor="#85553d"/>
+              FontSize="14"
+              FontAttributes="Bold"
+              BackgroundColor="#3385553d"/>
 
          <Label Text= "Na sua frente há dois caminhos. Qual você escolherá?"
               Grid.Row= "2"
@@ -50,8 +55,9 @@
               Grid.Row= "3"
               Grid.Column= "0"
               Grid.ColumnSpan="2"
-              Clicked="Próximo"
+              Clicked="Esquerda"
               HeightRequest="40"
+              BorderColor= "Black"
               BackgroundColor="#85553d"
               CornerRadius="30"
               TextColor="Black"/>
@@ -60,8 +66,10 @@
               Grid.Row= "4"
               Grid.Column= "0"
               Grid.ColumnSpan="2"
-               BackgroundColor="#85553d"
+              Clicked="Direita"
               HeightRequest="40"
+              BorderColor= "Black"
+              BackgroundColor="#85553d"
               CornerRadius="30"
               TextColor="Black"/>
       </Grid>

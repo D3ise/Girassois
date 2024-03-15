@@ -34,9 +34,14 @@
          <Button Text= "X"
               Grid.Row= "0"
               Grid.Column= "1"
+              Padding="0"
+              HeightRequest="20"
+              WidthRequest="20"
               Clicked= "Inicio"
               TextColor="Black"
-              BackgroundColor="#85553d"/>
+              FontSize="14"
+              FontAttributes="Bold"
+              BackgroundColor="#3385553d"/>
 
          <Label Text= "O caminho que você escolheu é seguro, agora você está em um lindo jardim. Na sua frente há um caminho de rosas brancas e um caminho de rosas vermelhas. Por qual você deseja ir?"
               Grid.Row= "2"
@@ -51,6 +56,7 @@
               Grid.Column= "0"
               Grid.ColumnSpan="2"
               HeightRequest="40"
+              BorderColor="Black"
               BackgroundColor="#85553d"
               CornerRadius="30"
               TextColor="Black"/>
@@ -59,8 +65,9 @@
               Grid.Row= "4"
               Grid.Column= "0"
               Grid.ColumnSpan="2"
-               BackgroundColor="#85553d"
               HeightRequest="40"
+              BorderColor="Black"
+              BackgroundColor="#85553d"
               CornerRadius="30"
               TextColor="Black"/>
       </Grid>

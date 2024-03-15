@@ -9,13 +9,17 @@ public partial class GamePage : ContentPage
 		InitializeComponent();
 	}
 	
-	void Voltar(object sender, EventArgs args)
+	void X(object sender, EventArgs args)
 	{
 		Application.Current.MainPage = new MainPage();
 	}
-	 void Start(object sender, EventArgs args)
+	 void Sim(object sender, EventArgs args)
 	{
 		Application.Current.MainPage = new GamePage1();
+	}
+	 void Nao(object sender, EventArgs args)
+	{
+		Application.Current.MainPage = new MainPage();
 	}
 }
     

@@ -10,6 +10,6 @@ public partial class GamePage2 : ContentPage
 	}
      void Inicio(object sender, EventArgs args)
 	{
-		Application.Current.MainPage = new MainPage();
+		Application.Current.MainPage = new GamePage1();
 	}
 }

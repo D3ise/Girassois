@@ -9,10 +9,14 @@ public partial class GamePage1 : ContentPage
 	
 	void Volta(object sender, EventArgs args)
 	{
-		Application.Current.MainPage = new MainPage();
+		Application.Current.MainPage = new GamePage();
 	}
-	 void Próximo(object sender, EventArgs args)
+	 void Esquerda(object sender, EventArgs args)
 	{
 		Application.Current.MainPage = new GamePage2();
+	}
+	 void Direita(object sender, EventArgs args)
+	{
+		Application.Current.MainPage = new OverursoPage();
 	}
 }
