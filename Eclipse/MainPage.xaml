@@ -29,6 +29,7 @@
                CornerRadius="30"
                TextColor="Black"
                BorderColor="Black"
+               BorderWidth="1"
                BackgroundColor="#85a340"
                FontAttributes="Bold"
                FontSize="20"/> 
@@ -53,6 +54,9 @@
                   Grid.Row="0"
                   Grid.Column="0"
                   Grid.ColumnSpan="2"
+                  TextColor="Black"
+                  FontAttributes="Bold"
+                  FontSize="20"
                   HorizontalOptions="Center"/>
 
             <Button Text="X"
@@ -63,15 +67,17 @@
                      WidthRequest="20"
                      Clicked="Back" 
                      TextColor="Black"
-                     FontSize="14"
                      FontAttributes="Bold"
+                     FontSize="14"
                      BackgroundColor="#3385553d"/>
 
-           <Label Text= "Olá!! Este aplicativo consiste em um jogo no qual o objetivo do jogador é sair do Labirinto Selvagem, mas no caminho enfrentará muitos desafios. Este aplicativo foi feito por Deise Elen da turma do 3 ano B, com a orientação do professor Thiago Macedo."
+           <Label Text= "Olá!! Este aplicativo consiste em um jogo no qual o objetivo do jogador é sair do Labirinto Selvagem, mas no caminho enfrentará muitos desafios. Este aplicativo foi feito por Deise Elen da turma do 3 ano B do colégio SESI de Apucarana no ano de 2024, com a orientação do professor Thiago Macedo."
                   Grid.Row="1"
                   Grid.Column="0"
                   Grid.ColumnSpan="2"
                   TextColor= "Black"
+                  FontAttributes="Bold"
+                  FontSize="20"
                   HorizontalTextAlignment="Center"
                   VerticalOptions="Center"/>
 

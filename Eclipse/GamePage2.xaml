@@ -57,6 +57,7 @@
               Grid.ColumnSpan="2"
               HeightRequest="40"
               BorderColor="Black"
+              BorderWidth="1"
               BackgroundColor="#85553d"
               CornerRadius="30"
               TextColor="Black"/>
@@ -67,6 +68,7 @@
               Grid.ColumnSpan="2"
               HeightRequest="40"
               BorderColor="Black"
+              BorderWidth="1"
               BackgroundColor="#85553d"
               CornerRadius="30"
               TextColor="Black"/>

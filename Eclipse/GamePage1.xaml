@@ -58,6 +58,7 @@
               Clicked="Esquerda"
               HeightRequest="40"
               BorderColor= "Black"
+              BorderWidth="1"
               BackgroundColor="#85553d"
               CornerRadius="30"
               TextColor="Black"/>
@@ -69,6 +70,7 @@
               Clicked="Direita"
               HeightRequest="40"
               BorderColor= "Black"
+              BorderWidth="1"
               BackgroundColor="#85553d"
               CornerRadius="30"
               TextColor="Black"/>
