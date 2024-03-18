@@ -8,5 +8,12 @@ public partial class OverursoPage : ContentPage
 	{
 		InitializeComponent();
 	}
-    
+    void X(object sender, EventArgs args)
+	{
+		Application.Current.MainPage = new MainPage();
+	}
+	 void JogarNovamente(object sender, EventArgs args)
+	{
+		Application.Current.MainPage = new GamePage();
+	}
 }
